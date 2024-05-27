@@ -5,7 +5,7 @@ describe('On Linkedin', () => {
 
         cy.get('.nav__button-secondary').click();
         cy.get('#username').type('popescuradhoo@yahoo.com');
-        cy.get('#password').type('pOCa630V');
+        cy.get('#password').type('123');
         cy.get('.btn__primary--large').click();
 
         cy.get('.secondary-action-new').click();
